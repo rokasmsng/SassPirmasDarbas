@@ -1,0 +1,91 @@
+.hederis {
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.hederis h2 {
+  color: #e6c20e;
+}
+
+.kontaktas {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.kontaktas aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 30%;
+  margin-right: 5px;
+  background-color: green;
+}
+
+.kontaktas aside ul {
+  height: 60%;
+  width: 40%;
+}
+
+.kontaktas aside ul li {
+  height: 33%;
+  list-style: none;
+}
+
+.kontaktas form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100%;
+  width: 69%;
+  background-color: green;
+}
+
+.kontaktas form div {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.kontaktas form div form {
+  width: 100%;
+}
+
+.kontaktas form div form div {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

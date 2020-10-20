@@ -1,0 +1,71 @@
+$backgroundcolor: blue;
+$textcolor: #e6c20e;
+$bottomcolor: green;
+
+@mixin velnias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin Centravimas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+@mixin textocentravimas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hederis {
+    background-color: $backgroundcolor;
+    height: 100px;
+    width: 100%;
+    @include Centravimas();
+    
+    h2{
+        color: $textcolor;
+    }
+  
+}
+.kontaktas {
+    width: 100%;
+    height: 250px;
+    @include velnias();
+    @include Centravimas();
+    aside {
+        @include textocentravimas();
+        height: 100%;
+        width: 30%;
+        margin-right: 5px;
+        background-color: $bottomcolor;
+
+        ul{
+            height: 60%;
+            width: 40%;
+
+            li{
+                height: 33%;
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+    }
+    form {
+        @include textocentravimas();
+        @include velnias();
+        height: 100%;
+        width: 69%;
+        background-color: $bottomcolor;
+        div {
+            margin-left: 10px;
+            width: 100%;
+            
+            }
+            
+        }
+        
+    }
+}
+
